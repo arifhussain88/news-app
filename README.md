@@ -46,6 +46,8 @@ Basic commands to be executed via composer:
 
 	php artisan schedule:work
 
+ 	php artisan serve
+
 Then check and filter articles as required:
 
 	http://127.0.0.1:8000/newsapi?q=test&from_date=2023-12-05&filterIn=category,source
