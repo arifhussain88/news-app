@@ -14,9 +14,9 @@ Data is updated regularly via Laravel Task schedules; commands are set to run re
 
 API Data can be fetched manually as well by hitting URLs:
 
-/fetchdata/nytimes
-/fetchdata/theguardian
-/fetchdata/newsorg
+	/fetchdata/nytimes
+	/fetchdata/theguardian
+	/fetchdata/newsorg
 
 
 
