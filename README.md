@@ -21,6 +21,7 @@ API Data can be fetched manually as well by hitting URLs:
 Api end-points for frontend are set at:
 	
  	/newsapi
+  	/newsapi?q=test&from_date=2023-12-05&filterIn=category,source
 
 Parameters can be passed for querying data as required: 
 	
@@ -32,7 +33,21 @@ Parameters can be passed for querying data as required:
 
 
 For fecthing data from API default limit is set to 50 records.
-	
 
+---------------------
+Steps to run project:
+---------------------
+
+Basic commands to be executed via composer:
+	
+ 	composer install
+
+ 	php artisan migrate
+
+	php artisan schedule:work
+
+Then check and filter articles as required:
+
+	http://127.0.0.1:8000/newsapi?q=test&from_date=2023-12-05&filterIn=category,source
 
 
